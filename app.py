@@ -19,5 +19,14 @@ def predict_api():
     output=regmodel.predict(new_data)
     print(output[0])
     return jsonify(output[0])
+
+@app.route('/predict',method=["POST"])
+def predict():
+    data=[float(x)/100 for x in request.form.values()]
+    final_input=scaler.transform(np.array(data).reshape(1,-1))
+    print(final_input)
+    output=output.predict(final_input[0])
+    return render_template('home.html',prediction_text="The value for the diabetes is ()".format(output))
+
 if __name__=="__main__":
     app.run(debug=True)
