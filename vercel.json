@@ -5,6 +5,10 @@
         "src": "app.py",
         "use": "@vercel/python"
       }
+    ],
+    "routes": [
+      { "src": "/predict_api", "dest": "/app.py" },
+      { "src": "/predict", "dest": "/app.py" }
     ]
   }
   
