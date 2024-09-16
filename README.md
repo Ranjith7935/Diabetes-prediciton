@@ -1,6 +1,6 @@
 ### Diabetes-prediciton
 
-### software and Tools Resquiirements
+### software and Tools Resquirements
 
 1. [Github](https://github.com)
 2. [Render](https://render.com)
