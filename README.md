@@ -41,6 +41,9 @@ Follow these steps to set up the project locally:
     .\venv\Scripts\activate
 
 3.  **Install Dependencies**
+     ```bash
+    pip install -r requirements.txt
+
      
 5.  **Prepare the Model and Scaler**
 6.  **Run the Application**
