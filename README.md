@@ -44,14 +44,15 @@ Follow these steps to set up the project locally:
 
      
 5.  **Prepare the Model and Scaler**
-    Prepare the Model and Scaler
+   - Prepare the Model and Scaler
       
-   Ensure you have the trained model (regmodel.pkl) and the scaler (scaling.pkl) in the    project directory. These files should be generated from your model training process.
+  - Ensure you have the trained model (regmodel.pkl) and the scaler (scaling.pkl) in the    project directory. These files should be generated from your model training process.
    
 7.  **Run the Application**
       ```bash
          python app.p
 
 8.  **For Deploying**
-      Create Account in Render using Github. Create a New webservcies select Repo which
+
+    -Create Account in Render using Github. Create a New webservcies select Repo which
     contains the file and Deploy 
