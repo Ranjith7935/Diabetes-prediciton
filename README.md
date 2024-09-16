@@ -29,7 +29,9 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Ranjith7935/Diabetes-prediction.git
+   
+   
+   
    cd Diabetes-prediction
 
 2.  **Create new environment**
