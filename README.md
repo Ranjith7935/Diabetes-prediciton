@@ -50,7 +50,3 @@ Follow these steps to set up the project locally:
       ```bash
          python app.p
 
-8.  **For Deploying**
-
-    - Create Account in Render using Github. Create a New webservcies select Repo which
-    contains the file and Deploy
