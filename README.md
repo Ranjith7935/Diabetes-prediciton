@@ -1,5 +1,5 @@
 ### Diabetes-prediciton
-
+[live Demo](https://diabetes-prediciton-1.onrender.com/)
 ### software and Tools Resquirements
 
 1. [Github](https://github.com)
